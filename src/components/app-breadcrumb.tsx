@@ -28,7 +28,7 @@ export default function AppBreadcrumb() {
         <BreadcrumbItem className="hidden md:block">
           <BreadcrumbLink href="#">V UI</BreadcrumbLink>
         </BreadcrumbItem>
-        {pathname.length && (
+        {pathname.length > 1 && (
           <>
             <BreadcrumbSeparator className="hidden md:block" />
             <BreadcrumbItem>
@@ -40,7 +40,7 @@ export default function AppBreadcrumb() {
             </BreadcrumbItem>
           </>
         )}
-        {pathname.length > 1 && (
+        {pathname.length && (
           <>
             <BreadcrumbSeparator className="hidden md:block" />
             <BreadcrumbItem>

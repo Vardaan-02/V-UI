@@ -20,8 +20,6 @@ export default function AppBreadcrumb() {
       .join(" ");
   };
 
-  console.log(pathname);
-
   return (
     <Breadcrumb>
       <BreadcrumbList>

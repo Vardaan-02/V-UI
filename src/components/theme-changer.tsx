@@ -17,7 +17,7 @@ export default function ThemeChanger() {
   return (
     <div className="h-full ml-auto flex items-center">
       <Github
-        className="absolute right-16 cursor-pointer"
+        className="absolute right-[2.8rem] sm:right-16 cursor-pointer"
         onClick={() =>
           window.open("https://github.com/Vardaan-02/UI-Library", "_black")
         }

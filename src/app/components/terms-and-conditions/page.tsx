@@ -13,7 +13,7 @@ export default function Page() {
       <AppHeading heading={heading} description={description} />
       <AppPreview Code={<Code />} Preview={<Preview />} />
       <Timeline steps={steps} />
-      {/* <AppProps props={props} /> */}
+      <AppProps props={props} />
       <AppFooter />
     </div>
   );
@@ -31,7 +31,7 @@ const steps = [
     content: (
       <CodeSnippet
         theme="dark"
-        className="w-[16rem] md:w-full"
+        className="w-[16rem] md:max-w-[812px] xl:w-[980px]"
         code={`npm i motion clsx tailwind-merge
 npx shadcn@latest add button
 npx shadcn@latest add dialog`}
@@ -42,7 +42,13 @@ npx shadcn@latest add dialog`}
     key: 2,
     title: "Install Dependencies For Animations",
     height: "6rem",
-    content: <CodeSnippet theme="dark" code={`npm install framer-motion`} className="w-[16rem] md:w-full"/>,
+    content: (
+      <CodeSnippet
+        theme="dark"
+        code={`npm install framer-motion`}
+        className="w-[16rem] md:max-w-[812px] xl:w-[980px]"
+      />
+    ),
   },
   {
     key: 3,
@@ -53,7 +59,7 @@ npx shadcn@latest add dialog`}
         <p className="mb-2 ml-4 font-light text-md">lib/utils.ts</p>
         <CodeSnippet
           theme="dark"
-          className="w-[16rem] md:w-full"
+          className="w-[16rem] md:max-w-[812px] xl:w-[980px]"
           code={`import { ClassValue, clsx } from "clsx";
   import { twMerge } from "tailwind-merge";
 
@@ -74,9 +80,12 @@ npx shadcn@latest add dialog`}
         <p className="mb-2 ml-4 font-light text-md">
           components/ui/terms-ans-condition.tsx
         </p>
+        <div>
+
+        
         <CodeSnippet
           showLineNumbers={true}
-          className="h-96 scrollbar-custom w-[16rem] md:w-full"
+          className="h-96 w-[16rem] md:max-w-[812px] xl:w-[980px]"
           theme="dark"
           code={`
 "use client";
@@ -248,6 +257,7 @@ export default function TermsAndConditions() {
 }
 `}
         />
+        </div>
       </>
     ),
   },

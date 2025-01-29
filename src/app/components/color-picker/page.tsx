@@ -28,7 +28,7 @@ const steps = [
     title: "Install Dependencies",
     height: "5rem",
     content: (
-      <CodeSnippet theme="dark" code={"npm i motion clsx tailwind-merge"} className="w-[16rem] md:w-full"/>
+      <CodeSnippet theme="dark" code={"npm i motion clsx tailwind-merge"} className="w-[16rem] md:max-w-[812px] xl:w-[980px]"/>
     ),
   },
   {
@@ -38,7 +38,7 @@ const steps = [
     content: (
       <CodeSnippet
         theme="dark"
-        className="w-[16rem] md:w-full"
+        className="w-[16rem] md:max-w-[812px] xl:w-[980px]"
         code={`npm install tailwindcss @tailwindcss/cli
 npx shadcn@latest add slider
 npx shadcn@latest add button`}
@@ -54,7 +54,7 @@ npx shadcn@latest add button`}
         <p className="mb-2 ml-4 font-light text-md">lib/utils.ts</p>
         <CodeSnippet
           theme="dark"
-          className="w-[16rem] md:w-full"
+          className="w-[16rem] md:max-w-[812px] xl:w-[980px]"
           code={`import { ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 
@@ -75,7 +75,7 @@ export function cn(...inputs: ClassValue[]) {
         <p className="mb-2 ml-4 font-light text-md">lib/color-conversions.ts</p>
         <CodeSnippet
           showLineNumbers={true}
-          className="h-96 w-[16rem] md:w-full mb-12"
+          className="h-96 w-[16rem] md:max-w-[812px] xl:w-[980px] mb-12"
           theme={"dark"}
           code={`export function hexToRgb(hex: string): [number, number, number] {
     const r = parseInt(hex.slice(1, 3), 16);
@@ -173,7 +173,7 @@ export function cn(...inputs: ClassValue[]) {
         </p>
         <CodeSnippet
           showLineNumbers={true}
-          className="h-96 w-[16rem] md:w-full mb-12"
+          className="h-96 w-[16rem] md:max-w-[812px] xl:w-[980px] mb-12"
           theme="dark"
           code={`"use client";
 
@@ -381,7 +381,7 @@ export default ColorPicker;
         </p>
         <CodeSnippet
           showLineNumbers={true}
-          className="w-[16rem] md:w-full h-96 scrollbar-custom mb-12"
+          className="w-[16rem] md:max-w-[812px] xl:w-[980px] h-96 scrollbar-custom mb-12"
           theme="dark"
           code={`import React, { useRef, useEffect, useState } from "react";
 
@@ -477,7 +477,7 @@ export default ColorWheel;
         </p>
         <CodeSnippet
           showLineNumbers={true}
-          className="w-[16rem] md:w-full h-96 scrollbar-custom"
+          className="w-[16rem] md:max-w-[812px] xl:w-[980px] h-96 scrollbar-custom"
           theme="dark"
           code={`import React, { ReactNode } from 'react';
 import { X } from 'lucide-react';

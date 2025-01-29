@@ -32,7 +32,7 @@ export default function CodeSnippet({
   };
 
   return (
-    <div className={cn("rounded-lg overflow-y-auto overflow-x-hidden shadow-md relative ", className)}>
+    <div className={cn("rounded-lg overflow-y-auto overflow-x-hidden shadow-md relative", className)}>
       <Highlight
         theme={theme === "light" ? themes.github : themes.vsDark}
         code={code.trim()}

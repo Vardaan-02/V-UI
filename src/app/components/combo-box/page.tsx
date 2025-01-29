@@ -28,7 +28,7 @@ const steps = [
     title: "Install Dependencies",
     height: "5rem",
     content: (
-      <CodeSnippet theme="dark" code={"npm i motion clsx tailwind-merge"} className="w-[16rem] md:w-full"/>
+      <CodeSnippet theme="dark" code={"npm i motion clsx tailwind-merge"} className="w-[16rem] md:max-w-[812px] xl:w-[980px]"/>
     ),
   },
   {
@@ -38,7 +38,7 @@ const steps = [
     content: (
       <CodeSnippet
         theme="dark"
-        className="w-[16rem] md:w-full"
+        className="w-[16rem] md:max-w-[812px] xl:w-[980px]"
         code={`npx shadcn@latest add popover
 npx shadcn@latest add command
 npx shadcn@latest add button`}
@@ -54,7 +54,7 @@ npx shadcn@latest add button`}
         <p className="mb-2 ml-4 font-light text-md">lib/utils.ts</p>
         <CodeSnippet
           theme="dark"
-          className="w-[16rem] md:w-full"
+          className="w-[16rem] md:max-w-[812px] xl:w-[980px]"
           code={`import { ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 
@@ -77,7 +77,7 @@ export function cn(...inputs: ClassValue[]) {
         </p>
         <CodeSnippet
           showLineNumbers={true}
-          className="h-96 scrollbar-custom w-[16rem] md:w-full"
+          className="h-96 scrollbar-custom w-[16rem] md:max-w-[812px] xl:w-[980px]"
           theme="dark"
           code={`
 "use client";

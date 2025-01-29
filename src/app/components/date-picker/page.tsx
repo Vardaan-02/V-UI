@@ -28,14 +28,14 @@ const steps = [
     title: "Install Dependencies",
     height: "5rem",
     content: (
-      <CodeSnippet theme="dark" code={"npm i motion clsx tailwind-merge"} />
+      <CodeSnippet theme="dark" code={"npm i motion clsx tailwind-merge"} className="w-[16rem] md:w-full"/>
     ),
   },
   {
     key: 2,
     title: "Install Dependencies For Animations",
     height: "6rem",
-    content: <CodeSnippet theme="dark" code={"npm install motion"} />,
+    content: <CodeSnippet theme="dark" code={"npm install motion"} className="w-[16rem] md:w-full"/>,
   },
   {
     key: 3,
@@ -46,6 +46,7 @@ const steps = [
         <p className="mb-2 ml-4 font-light text-md">lib/utils.ts</p>
         <CodeSnippet
           theme="dark"
+          className="w-[16rem] md:w-full"
           code={`import { ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 
@@ -59,7 +60,7 @@ export function cn(...inputs: ClassValue[]) {
   },
   {
     key: 4,
-    height: "80rem",
+    height: "86rem",
     title: "Copy The Source Code",
     content: (
       <>
@@ -68,7 +69,7 @@ export function cn(...inputs: ClassValue[]) {
         </p>
         <CodeSnippet
           showLineNumbers={true}
-          className="h-96 scrollbar-custom max-w-[980px]"
+          className="h-96 scrollbar-custom w-[16rem] md:w-full mb-12"
           theme="dark"
           code={`export const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 
@@ -99,7 +100,7 @@ export function getYearRange(currentYear: number): number[] {
         </p>
         <CodeSnippet
           showLineNumbers={true}
-          className="h-96 scrollbar-custom max-w-[980px]"
+          className="h-96 mb-12 scrollbar-custom w-[16rem] md:w-full"
           theme="dark"
           code={`"use client"
 
@@ -242,7 +243,7 @@ function YearSelect({ value, onChange, yearRange }: YearSelectProps) {
         </p>
         <CodeSnippet
           showLineNumbers={true}
-          className="h-96 scrollbar-custom max-w-[980px]"
+          className="h-96 scrollbar-custom w-[16rem] md:w-full"
           theme="dark"
           code={`
 "use client";

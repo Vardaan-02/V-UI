@@ -13,7 +13,7 @@ interface TimelineProps {
 
 const Timeline: React.FC<TimelineProps> = ({ steps }) => {
   return (
-    <div className="w-full overflow-x-hidden">
+    <div className="overflow-x-hidden w-[20rem] md:w-full">
       <h1 className="text-3xl font-bold tracking-tight mb-4 overflow-x-hidden">Installation</h1>
       {steps.map((step, index) => (
         <TimelineStep

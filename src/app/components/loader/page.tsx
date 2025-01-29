@@ -28,14 +28,14 @@ const steps = [
     title: "Install Dependencies",
     height: "5rem",
     content: (
-      <CodeSnippet theme="dark" code={"npm i motion clsx tailwind-merge"} />
+      <CodeSnippet theme="dark" code={"npm i motion clsx tailwind-merge"} className="w-[16rem] md:w-full"/>
     ),
   },
   {
     key: 2,
     title: "Install Dependencies For Animations",
     height: "6rem",
-    content: <CodeSnippet theme="dark" code={"npm install framer-motion"} />,
+    content: <CodeSnippet theme="dark" code={"npm install framer-motion"} className="w-[16rem] md:w-full"/>,
   },
   {
     key: 3,
@@ -46,6 +46,7 @@ const steps = [
         <p className="mb-2 ml-4 font-light text-md">lib/utils.ts</p>
         <CodeSnippet
           theme="dark"
+          className="w-[16rem] md:w-full"
           code={`import { ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 
@@ -68,7 +69,7 @@ export function cn(...inputs: ClassValue[]) {
         </p>
         <CodeSnippet
           showLineNumbers={true}
-          className="h-96 scrollbar-custom max-w-[980px]"
+          className="h-96 scrollbar-custom w-[16rem] md:w-full"
           theme="dark"
           code={`
 "use client";

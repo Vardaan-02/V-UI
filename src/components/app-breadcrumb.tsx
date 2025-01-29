@@ -40,7 +40,7 @@ export default function AppBreadcrumb() {
             </BreadcrumbItem>
           </>
         )}
-        {pathname.length && (
+        {pathname.length>0 && (
           <>
             <BreadcrumbSeparator className="hidden md:block" />
             <BreadcrumbItem>

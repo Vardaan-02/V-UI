@@ -9,7 +9,7 @@ import Preview from "./preview";
 
 export default function Page() {
   return (
-    <div className="flex flex-col h-full py-8 items-center xl:px-48 lg:px-16 px-4 space-y-8 overflow-x-hidden">
+    <div className="flex flex-col h-full py-8 items-center xl:px-48 lg:px-16 space-y-8 overflow-x-hidden">
       <AppHeading heading={heading} description={description} />
       <AppPreview Code={<Code />} Preview={<Preview />} />
       <Timeline steps={steps} />
@@ -31,6 +31,7 @@ const steps = [
     content: (
       <CodeSnippet
         theme="dark"
+        className="w-[16rem] md:w-full"
         code={`npm i motion clsx tailwind-merge
 npx shadcn@latest add button
 npx shadcn@latest add dialog`}
@@ -41,7 +42,7 @@ npx shadcn@latest add dialog`}
     key: 2,
     title: "Install Dependencies For Animations",
     height: "6rem",
-    content: <CodeSnippet theme="dark" code={`npm install framer-motion`} />,
+    content: <CodeSnippet theme="dark" code={`npm install framer-motion`} className="w-[16rem] md:w-full"/>,
   },
   {
     key: 3,
@@ -52,6 +53,7 @@ npx shadcn@latest add dialog`}
         <p className="mb-2 ml-4 font-light text-md">lib/utils.ts</p>
         <CodeSnippet
           theme="dark"
+          className="w-[16rem] md:w-full"
           code={`import { ClassValue, clsx } from "clsx";
   import { twMerge } from "tailwind-merge";
 
@@ -74,7 +76,7 @@ npx shadcn@latest add dialog`}
         </p>
         <CodeSnippet
           showLineNumbers={true}
-          className="h-96 scrollbar-custom max-w-[980px]"
+          className="h-96 scrollbar-custom w-[16rem] md:w-full"
           theme="dark"
           code={`
 "use client";

@@ -9,7 +9,7 @@ interface AppPreviewProps {
 
 export default function AppPreview({ Preview, Code }: AppPreviewProps) {
   return (
-    <div className="w-full">
+    <div className="md:w-full w-[20rem]">
       <Tabs defaultValue="tab-1">
         <TabsList className="h-auto rounded-none border-b border-border bg-transparent p-0">
           <TabsTrigger

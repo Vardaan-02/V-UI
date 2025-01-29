@@ -24,7 +24,6 @@ export default Button;
       language="jsx"
       theme="dark"
       showLineNumbers={true}
-      className="w-full"
     />
   );
 }

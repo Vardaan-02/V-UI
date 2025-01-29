@@ -218,8 +218,8 @@ const data: SideBarItem[] = [
         parentUrl: "components",
       },
       {
-        title: "Terms & Conditions",
-        url: "terms-&-conditions",
+        title: "Terms and Conditions",
+        url: "terms-and-conditions",
         parent: "Components",
         parentUrl: "components",
       },

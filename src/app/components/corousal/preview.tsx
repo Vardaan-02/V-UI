@@ -6,7 +6,7 @@ const carouselData: CarouselItem[] = [
   {
     title: "Beautiful Mountains",
     description: "Experience the serenity of nature.",
-    image: "/mountain.jpeg",
+    image: "/mountain.jpeg", 
   },
   {
     title: "Stunning Beaches",

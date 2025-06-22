@@ -1,0 +1,103 @@
+4:"$Sreact.fragment"
+5:I[50717,["848","static/chunks/848-ecc08a4519076334.js","476","static/chunks/476-244c79001c4c948f.js","18","static/chunks/18-72f0e9214b50ae25.js","562","static/chunks/562-2e27f04e818f39f7.js","863","static/chunks/863-d9466ed134e7fcf9.js","185","static/chunks/app/layout-0ed1cc84d67d7b52.js"],"default"]
+6:I[64370,["848","static/chunks/848-ecc08a4519076334.js","476","static/chunks/476-244c79001c4c948f.js","18","static/chunks/18-72f0e9214b50ae25.js","562","static/chunks/562-2e27f04e818f39f7.js","863","static/chunks/863-d9466ed134e7fcf9.js","185","static/chunks/app/layout-0ed1cc84d67d7b52.js"],"SidebarProvider"]
+7:I[78324,["848","static/chunks/848-ecc08a4519076334.js","476","static/chunks/476-244c79001c4c948f.js","18","static/chunks/18-72f0e9214b50ae25.js","562","static/chunks/562-2e27f04e818f39f7.js","863","static/chunks/863-d9466ed134e7fcf9.js","185","static/chunks/app/layout-0ed1cc84d67d7b52.js"],"AppSidebar"]
+8:I[64370,["848","static/chunks/848-ecc08a4519076334.js","476","static/chunks/476-244c79001c4c948f.js","18","static/chunks/18-72f0e9214b50ae25.js","562","static/chunks/562-2e27f04e818f39f7.js","863","static/chunks/863-d9466ed134e7fcf9.js","185","static/chunks/app/layout-0ed1cc84d67d7b52.js"],"SidebarInset"]
+9:I[64370,["848","static/chunks/848-ecc08a4519076334.js","476","static/chunks/476-244c79001c4c948f.js","18","static/chunks/18-72f0e9214b50ae25.js","562","static/chunks/562-2e27f04e818f39f7.js","863","static/chunks/863-d9466ed134e7fcf9.js","185","static/chunks/app/layout-0ed1cc84d67d7b52.js"],"SidebarTrigger"]
+a:I[29973,["848","static/chunks/848-ecc08a4519076334.js","476","static/chunks/476-244c79001c4c948f.js","18","static/chunks/18-72f0e9214b50ae25.js","562","static/chunks/562-2e27f04e818f39f7.js","863","static/chunks/863-d9466ed134e7fcf9.js","185","static/chunks/app/layout-0ed1cc84d67d7b52.js"],"Separator"]
+b:I[24462,["848","static/chunks/848-ecc08a4519076334.js","476","static/chunks/476-244c79001c4c948f.js","18","static/chunks/18-72f0e9214b50ae25.js","562","static/chunks/562-2e27f04e818f39f7.js","863","static/chunks/863-d9466ed134e7fcf9.js","185","static/chunks/app/layout-0ed1cc84d67d7b52.js"],"default"]
+c:I[14022,["848","static/chunks/848-ecc08a4519076334.js","476","static/chunks/476-244c79001c4c948f.js","18","static/chunks/18-72f0e9214b50ae25.js","562","static/chunks/562-2e27f04e818f39f7.js","863","static/chunks/863-d9466ed134e7fcf9.js","185","static/chunks/app/layout-0ed1cc84d67d7b52.js"],"default"]
+d:I[39275,[],""]
+e:I[61343,[],""]
+f:I[86864,["848","static/chunks/848-ecc08a4519076334.js","150","static/chunks/150-7c7865069cc8f1a4.js","209","static/chunks/app/components/loader/page-a91c993d3a98b034.js"],"Tabs"]
+10:I[86864,["848","static/chunks/848-ecc08a4519076334.js","150","static/chunks/150-7c7865069cc8f1a4.js","209","static/chunks/app/components/loader/page-a91c993d3a98b034.js"],"TabsList"]
+11:I[86864,["848","static/chunks/848-ecc08a4519076334.js","150","static/chunks/150-7c7865069cc8f1a4.js","209","static/chunks/app/components/loader/page-a91c993d3a98b034.js"],"TabsTrigger"]
+12:I[86864,["848","static/chunks/848-ecc08a4519076334.js","150","static/chunks/150-7c7865069cc8f1a4.js","209","static/chunks/app/components/loader/page-a91c993d3a98b034.js"],"TabsContent"]
+13:I[68865,["848","static/chunks/848-ecc08a4519076334.js","150","static/chunks/150-7c7865069cc8f1a4.js","209","static/chunks/app/components/loader/page-a91c993d3a98b034.js"],"default"]
+14:I[85505,["848","static/chunks/848-ecc08a4519076334.js","150","static/chunks/150-7c7865069cc8f1a4.js","209","static/chunks/app/components/loader/page-a91c993d3a98b034.js"],"default"]
+16:I[53120,[],"OutletBoundary"]
+18:I[53120,[],"MetadataBoundary"]
+1a:I[53120,[],"ViewportBoundary"]
+1c:I[76130,[],""]
+1:HL["/_next/static/media/4473ecc91f70f139-s.p.woff","font",{"crossOrigin":"","type":"font/woff"}]
+2:HL["/_next/static/media/463dafcda517f24f-s.p.woff","font",{"crossOrigin":"","type":"font/woff"}]
+3:HL["/_next/static/css/3e9fd4453f1ef880.css","style"]
+15:T7f0,
+"use client";
+
+import React, { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+
+const BlockSwapLoader: React.FC = () => {
+  const [blocks, setBlocks] = useState([0, 1, 2, 3, 4]);
+  const [animatingBlocks, setAnimatingBlocks] = useState<number[]>([]);
+  const [animationKey, setAnimationKey] = useState(0);
+
+  useEffect(() => {
+    const swapBlocks = () => {
+      const index1 = Math.floor(Math.random() * 5);
+      let index2;
+      do {
+        index2 = Math.floor(Math.random() * 5);
+      } while (index2 === index1);
+
+      setAnimatingBlocks([index1, index2]);
+      setAnimationKey((prevKey) => prevKey + 1);
+      setBlocks((prevBlocks) => {
+        const newBlocks = [...prevBlocks];
+        const temp = newBlocks[index1];
+        newBlocks[index1] = newBlocks[index2];
+        newBlocks[index2] = temp;
+        return newBlocks;
+      });
+    };
+
+    const intervalId = setInterval(swapBlocks, 1500);
+
+    return () => clearInterval(intervalId);
+  }, []);
+
+  return (
+    <div className="flex items-center justify-center gap-1">
+      {blocks.map((block, index) => {
+        const first = animatingBlocks[0] === index;
+        const second = animatingBlocks[1] === index;
+
+        const diff = animatingBlocks[1] - animatingBlocks[0];
+
+        return (
+          <motion.div
+            key={`${block}-${animationKey}`}
+            animate={first ? "up" : second ? "down" : false}
+            variants={{
+              up: {
+                y: [0, -36, -36, 0],
+                x: [0, 0, diff * 36, diff * 36],
+              },
+              down: {
+                y: [0, 36, 36, 0],
+                x: [
+                  0,
+                  0,
+                  diff * -36,
+                  diff * -36,
+                ],
+              },
+            }}
+            transition={{
+              duration: 1,
+              repeat: 0,
+            }}
+            className="w-8 h-8 bg-primary rounded-sm"
+          />
+        );
+      })}
+    </div>
+  );
+};
+
+export default BlockSwapLoader;
+0:{"P":null,"b":"cfiX6N1GXRPOGl1K5yzpk","p":"","c":["","components","loader"],"i":false,"f":[[["",{"children":["components",{"children":["loader",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3e9fd4453f1ef880.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","title",null,{"children":"V-UI"}],["$","link",null,{"rel":"icon","href":"/favicon.ico","type":"image/x-icon"}],["$","meta",null,{"name":"description","content":"Description of your product"}],["$","meta",null,{"name":"keywords","content":"vui, UI, UI Library, framer-motion, motion, animated, components, tailwind, aceternity"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"className":"__variable_1e4310 __variable_c3aa02 antialiased","children":["$","$L6",null,{"children":[["$","$L7",null,{}],["$","$L8",null,{"children":[["$","header",null,{"className":"flex h-16 shrink-0 items-center gap-2 border-b","children":["$","div",null,{"className":"flex items-center gap-2 px-3 w-full","children":[["$","$L9",null,{}],["$","$La",null,{"orientation":"vertical","className":"mr-2 h-4"}],["$","$Lb",null,{}],["$","$Lc",null,{}]]}]}],["$","$Ld",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Le",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]]}]]}]}]]}]}]]}],{"children":["components",["$","$4","c",{"children":[null,["$","$Ld",null,{"parallelRouterKey":"children","segmentPath":["children","components","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Le",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["loader",["$","$4","c",{"children":[null,["$","$Ld",null,{"parallelRouterKey":"children","segmentPath":["children","components","children","loader","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Le",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$4","c",{"children":[["$","div",null,{"className":"flex flex-col h-full py-8 items-center xl:px-48 lg:px-16 px-4 space-y-8 overflow-x-hidden","children":[["$","div",null,{"className":"space-y-4 md:w-full w-[20rem]","children":[["$","h1",null,{"className":"font-bold text-5xl","children":"Loader"}],["$","p",null,{"children":"The BlockSwapLoader is a dynamic loader component where blocks periodically swap positions with smooth animations using Framer Motion. It simulates a lively, engaging visual effect by swapping two random blocks every 1.5 seconds."}]]}],["$","div",null,{"className":"md:w-full w-[20rem]","children":["$","$Lf",null,{"defaultValue":"tab-1","children":[["$","$L10",null,{"className":"h-auto rounded-none border-b border-border bg-transparent p-0","children":[["$","$L11",null,{"value":"tab-1","className":"sm:w-12 md:w-24 xl:w-36 relative flex-col rounded-none px-4 py-2 text-xs after:absolute after:inset-x-0 after:bottom-0 after:h-0.5 data-[state=active]:bg-transparent data-[state=active]:shadow-none data-[state=active]:after:bg-primary","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-monitor mb-1.5 opacity-60","aria-hidden":"true","children":[["$","rect","48i651",{"width":"20","height":"14","x":"2","y":"3","rx":"2"}],["$","line","1svkeh",{"x1":"8","x2":"16","y1":"21","y2":"21"}],["$","line","vw1qmm",{"x1":"12","x2":"12","y1":"17","y2":"21"}],"$undefined"]}],"Preview"]}],["$","$L11",null,{"value":"tab-2","className":"xl:w-36 md:w-24 sm:w-12 relative flex-col rounded-none px-4 py-2 text-xs after:absolute after:inset-x-0 after:bottom-0 after:h-0.5 data-[state=active]:bg-transparent data-[state=active]:shadow-none data-[state=active]:after:bg-primary","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-code mb-1.5 opacity-60","aria-hidden":"true","children":[["$","polyline","z7tu5w",{"points":"16 18 22 12 16 6"}],["$","polyline","1eg1df",{"points":"8 6 2 12 8 18"}],"$undefined"]}],"Code"]}]]}],["$","$L12",null,{"value":"tab-1","children":["$","div",null,{"className":"border rounded-lg flex justify-center items-center w-full p-4","children":["$","$L13",null,{}]}]}],["$","$L12",null,{"value":"tab-2","children":["$","div",null,{"children":["$","$L14",null,{"code":"\"use client\";\n\nimport BlockSwapLoader from \"@/components/ui/loader\";\n\nexport default function Preview() {\n  return (\n    <div className=\"h-36 flex items-center\">\n      <BlockSwapLoader />\n    </div>\n  );\n}","language":"jsx","theme":"dark","showLineNumbers":true}]}]}]]}]}],["$","div",null,{"className":"overflow-x-hidden w-[20rem] md:w-full","children":[["$","h1",null,{"className":"text-3xl font-bold tracking-tight mb-4 overflow-x-hidden","children":"Installation"}],[["$","div","1",{"className":"flex items-start items-start","children":[["$","div",null,{"className":"flex flex-col items-center","children":[false,["$","div",null,{"className":"relative flex items-center justify-center w-12 h-12 bg-primary text-primary-foreground rounded-full","children":["$","span",null,{"className":"text-lg font-bold","children":1}]}],["$","div",null,{"className":"w-px bg-gray-300","style":{"height":"5rem"}}]]}],["$","div",null,{"className":"ml-4 flex-1 mt-2","children":[["$","h3",null,{"className":"text-xl font-semibold mb-6","children":"Install Dependencies"}],["$","$L14",null,{"theme":"dark","code":"npm i motion clsx tailwind-merge","className":"w-[16rem] md:max-w-[812px] xl:w-[980px]"}]]}]]}],["$","div","2",{"className":"flex items-start ","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"w-px h-2 bg-gray-300"}],["$","div",null,{"className":"relative flex items-center justify-center w-12 h-12 bg-primary text-primary-foreground rounded-full","children":["$","span",null,{"className":"text-lg font-bold","children":2}]}],["$","div",null,{"className":"w-px bg-gray-300","style":{"height":"6rem"}}]]}],["$","div",null,{"className":"ml-4 flex-1 mt-5","children":[["$","h3",null,{"className":"text-xl font-semibold mb-6","children":"Install Dependencies For Animations"}],["$","$L14",null,{"theme":"dark","code":"npm install framer-motion","className":"w-[16rem] md:max-w-[812px] xl:w-[980px]"}]]}]]}],["$","div","3",{"className":"flex items-start ","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"w-px h-2 bg-gray-300"}],["$","div",null,{"className":"relative flex items-center justify-center w-12 h-12 bg-primary text-primary-foreground rounded-full","children":["$","span",null,{"className":"text-lg font-bold","children":3}]}],["$","div",null,{"className":"w-px bg-gray-300","style":{"height":"15rem"}}]]}],["$","div",null,{"className":"ml-4 flex-1 mt-5","children":[["$","h3",null,{"className":"text-xl font-semibold mb-6","children":"Add Util File"}],[["$","p",null,{"className":"mb-2 ml-4 font-light text-md","children":"lib/utils.ts"}],["$","$L14",null,{"theme":"dark","className":"w-[16rem] md:max-w-[812px] xl:w-[980px]","code":"import { ClassValue, clsx } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs));\n}\n"}]]]}]]}],["$","div","4",{"className":"flex items-start ","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"w-px h-2 bg-gray-300"}],["$","div",null,{"className":"relative flex items-center justify-center w-12 h-12 bg-primary text-primary-foreground rounded-full","children":["$","span",null,{"className":"text-lg font-bold","children":4}]}],["$","div",null,{"className":"w-px bg-gray-300","style":{"height":"28rem"}}]]}],["$","div",null,{"className":"ml-4 flex-1 mt-5","children":[["$","h3",null,{"className":"text-xl font-semibold mb-6","children":"Copy The Source Code"}],[["$","p",null,{"className":"mb-2 ml-4 font-light text-md","children":"components/ui/block-swap-loader.tsx"}],["$","$L14",null,{"showLineNumbers":true,"className":"h-96 scrollbar-custom w-[16rem] md:max-w-[812px] xl:w-[980px]","theme":"dark","code":"$15"}]]]}]]}],["$","div","5",{"className":"flex items-start tems-end","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"w-px h-2 bg-gray-300"}],["$","div",null,{"className":"relative flex items-center justify-center w-12 h-12 bg-primary text-primary-foreground rounded-full","children":["$","span",null,{"className":"text-lg font-bold","children":5}]}],false]}],["$","div",null,{"className":"ml-4 flex-1 mt-5","children":[["$","h3",null,{"className":"text-xl font-semibold mb-6","children":"Ready To Use"}],"$undefined"]}]]}]]]}],"$undefined"]}],null,["$","$L16",null,{"children":"$L17"}]]}],{},null]},null]},null]},null],["$","$4","h",{"children":[null,["$","$4","p6e2Zp7zQGSM00zqHhdsP",{"children":[["$","$L18",null,{"children":"$L19"}],["$","$L1a",null,{"children":"$L1b"}],["$","meta",null,{"name":"next-size-adjust"}]]}]]}]]],"m":"$undefined","G":["$1c","$undefined"],"s":false,"S":true}
+1b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+19:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Create Next App"}],["$","meta","2",{"name":"description","content":"Generated by create next app"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"1024x1024"}]]
+17:null

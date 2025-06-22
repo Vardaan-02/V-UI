@@ -1,0 +1,156 @@
+4:"$Sreact.fragment"
+5:I[50717,["848","static/chunks/848-ecc08a4519076334.js","476","static/chunks/476-244c79001c4c948f.js","18","static/chunks/18-72f0e9214b50ae25.js","562","static/chunks/562-2e27f04e818f39f7.js","863","static/chunks/863-d9466ed134e7fcf9.js","185","static/chunks/app/layout-0ed1cc84d67d7b52.js"],"default"]
+6:I[64370,["848","static/chunks/848-ecc08a4519076334.js","476","static/chunks/476-244c79001c4c948f.js","18","static/chunks/18-72f0e9214b50ae25.js","562","static/chunks/562-2e27f04e818f39f7.js","863","static/chunks/863-d9466ed134e7fcf9.js","185","static/chunks/app/layout-0ed1cc84d67d7b52.js"],"SidebarProvider"]
+7:I[78324,["848","static/chunks/848-ecc08a4519076334.js","476","static/chunks/476-244c79001c4c948f.js","18","static/chunks/18-72f0e9214b50ae25.js","562","static/chunks/562-2e27f04e818f39f7.js","863","static/chunks/863-d9466ed134e7fcf9.js","185","static/chunks/app/layout-0ed1cc84d67d7b52.js"],"AppSidebar"]
+8:I[64370,["848","static/chunks/848-ecc08a4519076334.js","476","static/chunks/476-244c79001c4c948f.js","18","static/chunks/18-72f0e9214b50ae25.js","562","static/chunks/562-2e27f04e818f39f7.js","863","static/chunks/863-d9466ed134e7fcf9.js","185","static/chunks/app/layout-0ed1cc84d67d7b52.js"],"SidebarInset"]
+9:I[64370,["848","static/chunks/848-ecc08a4519076334.js","476","static/chunks/476-244c79001c4c948f.js","18","static/chunks/18-72f0e9214b50ae25.js","562","static/chunks/562-2e27f04e818f39f7.js","863","static/chunks/863-d9466ed134e7fcf9.js","185","static/chunks/app/layout-0ed1cc84d67d7b52.js"],"SidebarTrigger"]
+a:I[29973,["848","static/chunks/848-ecc08a4519076334.js","476","static/chunks/476-244c79001c4c948f.js","18","static/chunks/18-72f0e9214b50ae25.js","562","static/chunks/562-2e27f04e818f39f7.js","863","static/chunks/863-d9466ed134e7fcf9.js","185","static/chunks/app/layout-0ed1cc84d67d7b52.js"],"Separator"]
+b:I[24462,["848","static/chunks/848-ecc08a4519076334.js","476","static/chunks/476-244c79001c4c948f.js","18","static/chunks/18-72f0e9214b50ae25.js","562","static/chunks/562-2e27f04e818f39f7.js","863","static/chunks/863-d9466ed134e7fcf9.js","185","static/chunks/app/layout-0ed1cc84d67d7b52.js"],"default"]
+c:I[14022,["848","static/chunks/848-ecc08a4519076334.js","476","static/chunks/476-244c79001c4c948f.js","18","static/chunks/18-72f0e9214b50ae25.js","562","static/chunks/562-2e27f04e818f39f7.js","863","static/chunks/863-d9466ed134e7fcf9.js","185","static/chunks/app/layout-0ed1cc84d67d7b52.js"],"default"]
+d:I[39275,[],""]
+e:I[61343,[],""]
+f:I[86864,["848","static/chunks/848-ecc08a4519076334.js","150","static/chunks/150-7c7865069cc8f1a4.js","770","static/chunks/770-57bff84e3268cc0d.js","820","static/chunks/app/components/hover-lines/page-6c462cb4b705b568.js"],"Tabs"]
+10:I[86864,["848","static/chunks/848-ecc08a4519076334.js","150","static/chunks/150-7c7865069cc8f1a4.js","770","static/chunks/770-57bff84e3268cc0d.js","820","static/chunks/app/components/hover-lines/page-6c462cb4b705b568.js"],"TabsList"]
+11:I[86864,["848","static/chunks/848-ecc08a4519076334.js","150","static/chunks/150-7c7865069cc8f1a4.js","770","static/chunks/770-57bff84e3268cc0d.js","820","static/chunks/app/components/hover-lines/page-6c462cb4b705b568.js"],"TabsTrigger"]
+12:I[86864,["848","static/chunks/848-ecc08a4519076334.js","150","static/chunks/150-7c7865069cc8f1a4.js","770","static/chunks/770-57bff84e3268cc0d.js","820","static/chunks/app/components/hover-lines/page-6c462cb4b705b568.js"],"TabsContent"]
+13:I[28102,["848","static/chunks/848-ecc08a4519076334.js","150","static/chunks/150-7c7865069cc8f1a4.js","770","static/chunks/770-57bff84e3268cc0d.js","820","static/chunks/app/components/hover-lines/page-6c462cb4b705b568.js"],"default"]
+14:I[85505,["848","static/chunks/848-ecc08a4519076334.js","150","static/chunks/150-7c7865069cc8f1a4.js","770","static/chunks/770-57bff84e3268cc0d.js","820","static/chunks/app/components/hover-lines/page-6c462cb4b705b568.js"],"default"]
+16:I[80023,["848","static/chunks/848-ecc08a4519076334.js","150","static/chunks/150-7c7865069cc8f1a4.js","770","static/chunks/770-57bff84e3268cc0d.js","820","static/chunks/app/components/hover-lines/page-6c462cb4b705b568.js"],"ScrollArea"]
+17:I[53120,[],"OutletBoundary"]
+19:I[53120,[],"MetadataBoundary"]
+1b:I[53120,[],"ViewportBoundary"]
+1d:I[76130,[],""]
+1:HL["/_next/static/media/4473ecc91f70f139-s.p.woff","font",{"crossOrigin":"","type":"font/woff"}]
+2:HL["/_next/static/media/463dafcda517f24f-s.p.woff","font",{"crossOrigin":"","type":"font/woff"}]
+3:HL["/_next/static/css/3e9fd4453f1ef880.css","style"]
+15:Tda6,
+"use client";
+
+import { cn } from "@/lib/utils";
+import { motion, useAnimationControls, useMotionValue } from "framer-motion";
+import React, { useRef, useState } from "react";
+
+type LineAnimationProps = {
+  width: number;
+};
+
+export default function HoverLines({ headings }: { headings: string[] }) {
+  const style = `h-1 w-4 bg-primary`;
+
+  const smallLineRef = useRef<(HTMLDivElement | null)[]>([]);
+
+  const bigLineControls = useAnimationControls();
+  const headingControls = useAnimationControls();
+
+  const mouseY = useMotionValue(0);
+
+  const [lineAnimationProps, setLineAnimationProps] = useState<
+    LineAnimationProps[]
+  >([]);
+
+  function handleMouseMove(
+    event: React.MouseEvent<HTMLDivElement, MouseEvent>
+  ) {
+    mouseY.set(event.clientY);
+
+    const newAnimationProps = smallLineRef.current.map((ele) => {
+      if (!ele) return { width: 16 };
+
+      const { top } = ele.getBoundingClientRect();
+      const diff = Math.abs(mouseY.get() - top);
+
+      const width = Math.max((1 - Math.min(diff / 150, 1)) * 10 * 16, 16);
+
+      return {
+        width,
+      };
+    });
+
+    setLineAnimationProps(newAnimationProps);
+  }
+
+  const handleMouseEnter = () => {
+    bigLineControls.start("hover");
+    headingControls.start("hover");
+  };
+
+  const handleMouseLeave = () => {
+    bigLineControls.start("noHover");
+    headingControls.start("noHover");
+    const resetAnimationProps = smallLineRef.current.map(() => ({
+      width: 16,
+      transition: {
+        type: "spring",
+      },
+    }));
+
+    setLineAnimationProps(resetAnimationProps);
+  };
+
+  return (
+    <div
+      className="fixed right-0 top-0 h-screen flex flex-col justify-around w-[14rem] overflow-hidden"
+      onMouseMove={handleMouseMove}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      {headings.map((ele, index1) => {
+        return (
+          <div
+            key={ele}
+            className="flex flex-col justify-around h-full items-end"
+          >
+            <motion.div
+              className={cn(style, "w-8")}
+              animate={bigLineControls}
+              variants={{
+                hover: { width: "12rem" },
+                noHover: { width: "2rem" },
+              }}
+              transition={{
+                type: "spring",
+              }}
+            >
+              <motion.p
+                variants={{
+                  noHover: { x: "3rem" },
+                  hover: { x: "0.4rem" },
+                }}
+                className="translate-x-8 w-48"
+                animate={headingControls}
+              >
+                {ele}
+              </motion.p>
+            </motion.div>
+            {Array.from({ length: 4 }, (_, index2) => index2 + 1).map(
+              (ele, index2) => {
+                const currentLineIndex = index1 * 4 + index2;
+
+                return (
+                  <motion.div
+                    className={cn(style)}
+                    key={index2}
+                    ref={(ele: HTMLDivElement | null) => {
+                      smallLineRef.current[currentLineIndex] = ele;
+                    }}
+                    animate={lineAnimationProps[currentLineIndex]}
+                    transition={{
+                      type: "spring",
+                      damping: 50,
+                      stiffness: 1000,
+                      // duration:0.1,
+                    }}
+                  />
+                );
+              }
+            )}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+0:{"P":null,"b":"cfiX6N1GXRPOGl1K5yzpk","p":"","c":["","components","hover-lines"],"i":false,"f":[[["",{"children":["components",{"children":["hover-lines",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3e9fd4453f1ef880.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","title",null,{"children":"V-UI"}],["$","link",null,{"rel":"icon","href":"/favicon.ico","type":"image/x-icon"}],["$","meta",null,{"name":"description","content":"Description of your product"}],["$","meta",null,{"name":"keywords","content":"vui, UI, UI Library, framer-motion, motion, animated, components, tailwind, aceternity"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"className":"__variable_1e4310 __variable_c3aa02 antialiased","children":["$","$L6",null,{"children":[["$","$L7",null,{}],["$","$L8",null,{"children":[["$","header",null,{"className":"flex h-16 shrink-0 items-center gap-2 border-b","children":["$","div",null,{"className":"flex items-center gap-2 px-3 w-full","children":[["$","$L9",null,{}],["$","$La",null,{"orientation":"vertical","className":"mr-2 h-4"}],["$","$Lb",null,{}],["$","$Lc",null,{}]]}]}],["$","$Ld",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Le",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]]}]]}]}]]}]}]]}],{"children":["components",["$","$4","c",{"children":[null,["$","$Ld",null,{"parallelRouterKey":"children","segmentPath":["children","components","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Le",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["hover-lines",["$","$4","c",{"children":[null,["$","$Ld",null,{"parallelRouterKey":"children","segmentPath":["children","components","children","hover-lines","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Le",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$4","c",{"children":[["$","div",null,{"className":"flex flex-col h-full py-8 items-center xl:px-48 lg:px-16 px-4 space-y-8 overflow-x-hidden","children":[["$","div",null,{"className":"space-y-4 md:w-full w-[20rem]","children":[["$","h1",null,{"className":"font-bold text-5xl","children":"Hover Lines"}],["$","p",null,{"children":"The HoverLines component is an interactive vertical navigation menu with animated headings and lines that dynamically resize based on the user's mouse movement. It uses Framer Motion for smooth spring animations, creating an engaging visual effect."}]]}],["$","div",null,{"className":"md:w-full w-[20rem]","children":["$","$Lf",null,{"defaultValue":"tab-1","children":[["$","$L10",null,{"className":"h-auto rounded-none border-b border-border bg-transparent p-0","children":[["$","$L11",null,{"value":"tab-1","className":"sm:w-12 md:w-24 xl:w-36 relative flex-col rounded-none px-4 py-2 text-xs after:absolute after:inset-x-0 after:bottom-0 after:h-0.5 data-[state=active]:bg-transparent data-[state=active]:shadow-none data-[state=active]:after:bg-primary","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-monitor mb-1.5 opacity-60","aria-hidden":"true","children":[["$","rect","48i651",{"width":"20","height":"14","x":"2","y":"3","rx":"2"}],["$","line","1svkeh",{"x1":"8","x2":"16","y1":"21","y2":"21"}],["$","line","vw1qmm",{"x1":"12","x2":"12","y1":"17","y2":"21"}],"$undefined"]}],"Preview"]}],["$","$L11",null,{"value":"tab-2","className":"xl:w-36 md:w-24 sm:w-12 relative flex-col rounded-none px-4 py-2 text-xs after:absolute after:inset-x-0 after:bottom-0 after:h-0.5 data-[state=active]:bg-transparent data-[state=active]:shadow-none data-[state=active]:after:bg-primary","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-code mb-1.5 opacity-60","aria-hidden":"true","children":[["$","polyline","z7tu5w",{"points":"16 18 22 12 16 6"}],["$","polyline","1eg1df",{"points":"8 6 2 12 8 18"}],"$undefined"]}],"Code"]}]]}],["$","$L12",null,{"value":"tab-1","children":["$","div",null,{"className":"border rounded-lg flex justify-center items-center w-full p-4","children":["$","$L13",null,{}]}]}],["$","$L12",null,{"value":"tab-2","children":["$","div",null,{"children":["$","$L14",null,{"code":"\"use client\";\n\nimport HoverLines from \"@/components/ui/hover-line\";\n\nexport default function Preview() {\n\n  const headings = [\n    \"Home\",\n    \"About\",\n    \"Projects\",\n    \"Coding Profiles\",\n    \"Education\",\n    \"Achievements\",\n  ];\n\n  return (\n    <>\n      <h1 className=\"font-semibold\">Take Cursor on Right Side of the Screen</h1>\n      <HoverLines headings={headings}/>\n    </>\n  );\n}","language":"jsx","theme":"dark","showLineNumbers":true}]}]}]]}]}],["$","div",null,{"className":"overflow-x-hidden w-[20rem] md:w-full","children":[["$","h1",null,{"className":"text-3xl font-bold tracking-tight mb-4 overflow-x-hidden","children":"Installation"}],[["$","div","1",{"className":"flex items-start items-start","children":[["$","div",null,{"className":"flex flex-col items-center","children":[false,["$","div",null,{"className":"relative flex items-center justify-center w-12 h-12 bg-primary text-primary-foreground rounded-full","children":["$","span",null,{"className":"text-lg font-bold","children":1}]}],["$","div",null,{"className":"w-px bg-gray-300","style":{"height":"5rem"}}]]}],["$","div",null,{"className":"ml-4 flex-1 mt-2","children":[["$","h3",null,{"className":"text-xl font-semibold mb-6","children":"Install Dependencies"}],["$","$L14",null,{"theme":"dark","code":"npm i motion clsx tailwind-merge","className":"w-[16rem] md:max-w-[812px] xl:w-[980px]"}]]}]]}],["$","div","2",{"className":"flex items-start ","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"w-px h-2 bg-gray-300"}],["$","div",null,{"className":"relative flex items-center justify-center w-12 h-12 bg-primary text-primary-foreground rounded-full","children":["$","span",null,{"className":"text-lg font-bold","children":2}]}],["$","div",null,{"className":"w-px bg-gray-300","style":{"height":"6rem"}}]]}],["$","div",null,{"className":"ml-4 flex-1 mt-5","children":[["$","h3",null,{"className":"text-xl font-semibold mb-6","children":"Install Dependencies For Animations"}],["$","$L14",null,{"theme":"dark","code":"npm install motion","className":"w-[16rem] md:max-w-[812px] xl:w-[980px]"}]]}]]}],["$","div","3",{"className":"flex items-start ","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"w-px h-2 bg-gray-300"}],["$","div",null,{"className":"relative flex items-center justify-center w-12 h-12 bg-primary text-primary-foreground rounded-full","children":["$","span",null,{"className":"text-lg font-bold","children":3}]}],["$","div",null,{"className":"w-px bg-gray-300","style":{"height":"15rem"}}]]}],["$","div",null,{"className":"ml-4 flex-1 mt-5","children":[["$","h3",null,{"className":"text-xl font-semibold mb-6","children":"Add Util File"}],[["$","p",null,{"className":"mb-2 ml-4 font-light text-md","children":"lib/utils.ts"}],["$","$L14",null,{"theme":"dark","className":"w-[16rem] md:max-w-[812px] xl:w-[980px]","code":"import { ClassValue, clsx } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs));\n}\n"}]]]}]]}],["$","div","4",{"className":"flex items-start ","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"w-px h-2 bg-gray-300"}],["$","div",null,{"className":"relative flex items-center justify-center w-12 h-12 bg-primary text-primary-foreground rounded-full","children":["$","span",null,{"className":"text-lg font-bold","children":4}]}],["$","div",null,{"className":"w-px bg-gray-300","style":{"height":"28rem"}}]]}],["$","div",null,{"className":"ml-4 flex-1 mt-5","children":[["$","h3",null,{"className":"text-xl font-semibold mb-6","children":"Copy The Source Code"}],[["$","p",null,{"className":"mb-2 ml-4 font-light text-md","children":"components/ui/hover-lines.tsx"}],["$","$L14",null,{"showLineNumbers":true,"className":"h-96 scrollbar-custom w-[16rem] md:max-w-[812px] xl:w-[980px]","theme":"dark","code":"$15"}]]]}]]}],["$","div","5",{"className":"flex items-start tems-end","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"w-px h-2 bg-gray-300"}],["$","div",null,{"className":"relative flex items-center justify-center w-12 h-12 bg-primary text-primary-foreground rounded-full","children":["$","span",null,{"className":"text-lg font-bold","children":5}]}],false]}],["$","div",null,{"className":"ml-4 flex-1 mt-5","children":[["$","h3",null,{"className":"text-xl font-semibold mb-6","children":"Ready To Use"}],"$undefined"]}]]}]]]}],["$","div",null,{"className":"space-y-6 w-full","children":[["$","h2",null,{"className":"text-3xl font-bold tracking-tight","children":"Props"}],["$","$L16",null,{"className":"rounded-md border","children":["$","div",null,{"className":"relative w-full overflow-auto","children":["$","table",null,{"ref":"$undefined","className":"w-full caption-bottom text-sm","children":[["$","thead",null,{"ref":"$undefined","className":"[&_tr]:border-b hidden md:table-header-group","children":["$","tr",null,{"ref":"$undefined","className":"border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted bg-muted/50","children":[["$","th",null,{"ref":"$undefined","className":"h-12 px-4 text-left align-middle font-medium text-muted-foreground [&:has([role=checkbox])]:pr-0 w-[150px]","children":"Name"}],["$","th",null,{"ref":"$undefined","className":"h-12 px-4 align-middle font-medium text-muted-foreground [&:has([role=checkbox])]:pr-0 w-[100px] text-center","children":"Type"}],["$","th",null,{"ref":"$undefined","className":"h-12 px-4 align-middle font-medium text-muted-foreground [&:has([role=checkbox])]:pr-0 w-[100px] text-center","children":"Required"}],["$","th",null,{"ref":"$undefined","className":"h-12 px-4 align-middle font-medium text-muted-foreground [&:has([role=checkbox])]:pr-0 w-[100px] text-center","children":"Default"}],["$","th",null,{"ref":"$undefined","className":"h-12 px-4 align-middle font-medium text-muted-foreground [&:has([role=checkbox])]:pr-0 text-right","children":"Description"}]]}]}],["$","tbody",null,{"ref":"$undefined","className":"[&_tr:last-child]:border-0","children":[["$","$4","headings",{"children":[["$","tr",null,{"ref":"$undefined","className":"border-b data-[state=selected]:bg-muted md:hidden hover:bg-muted/50 transition-colors","children":["$","td",null,{"ref":"$undefined","className":"p-4 align-middle [&:has([role=checkbox])]:pr-0 block pb-2","children":[["$","div",null,{"className":"font-medium text-lg mb-1","children":"headings"}],["$","div",null,{"className":"space-y-1","children":[["$","div",null,{"children":[["$","span",null,{"className":"font-medium mr-2","children":"Type:"}],["$","div",null,{"className":"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground","children":"string[]"}]]}],["$","div",null,{"children":[["$","span",null,{"className":"font-medium mr-2","children":"Required:"}],["$","div",null,{"className":"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80","children":"Yes"}]]}],["$","div",null,{"children":[["$","span",null,{"className":"font-medium mr-2","children":"Default:"}],"-"]}],["$","div",null,{"children":[["$","span",null,{"className":"font-medium mr-2","children":"Description:"}],"List of Sidebar Items."]}]]}]]}]}],["$","tr",null,{"ref":"$undefined","className":"border-b data-[state=selected]:bg-muted hidden md:table-row hover:bg-muted/50 transition-colors","children":[["$","td",null,{"ref":"$undefined","className":"p-4 align-middle [&:has([role=checkbox])]:pr-0 font-medium","children":"headings"}],["$","td",null,{"ref":"$undefined","className":"p-4 align-middle [&:has([role=checkbox])]:pr-0 text-center","children":["$","div",null,{"className":"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground","children":"string[]"}]}],["$","td",null,{"ref":"$undefined","className":"p-4 align-middle [&:has([role=checkbox])]:pr-0 text-center","children":["$","div",null,{"className":"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80","children":"Yes"}]}],["$","td",null,{"ref":"$undefined","className":"p-4 align-middle [&:has([role=checkbox])]:pr-0 text-center w-36","children":"-"}],["$","td",null,{"ref":"$undefined","className":"p-4 align-middle [&:has([role=checkbox])]:pr-0 text-right","children":"List of Sidebar Items."}]]}]]}]]}]]}]}]}]]}],"$undefined"]}],null,["$","$L17",null,{"children":"$L18"}]]}],{},null]},null]},null]},null],["$","$4","h",{"children":[null,["$","$4","jBYcj8Yn0ZEZJDZZkLuQR",{"children":[["$","$L19",null,{"children":"$L1a"}],["$","$L1b",null,{"children":"$L1c"}],["$","meta",null,{"name":"next-size-adjust"}]]}]]}]]],"m":"$undefined","G":["$1d","$undefined"],"s":false,"S":true}
+1c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1a:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Create Next App"}],["$","meta","2",{"name":"description","content":"Generated by create next app"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"1024x1024"}]]
+18:null
